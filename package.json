@@ -1,0 +1,22 @@
+{
+  "name": "santan-v1",
+  "version": "1.0.0",
+  "description": "Santan v1 \u2014 Feature-rich WhatsApp bot (Baileys)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^5.0.0",
+    "axios": "^1.4.0",
+    "ytdl-core": "^4.0.0",
+    "yt-search": "^2.10.0",
+    "ffmpeg-static": "^5.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^11.1.1"
+  }
+}
